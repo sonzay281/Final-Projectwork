@@ -1,0 +1,52 @@
+.main{
+    position:absolute;
+    text-align:left;
+    height: 100%;
+    width: 100%;
+    border-radius:5%;
+
+
+}
+.footer{
+    position:relative;
+    text-align: center;
+    padding-top: 20%;
+    margin-top: 60%;
+    width: 100%;
+    color: silver;
+
+}
+.hover-nav{
+    display: none;
+}
+#hover:hover ~ .hover-nav{
+    display: block;
+}
+.hover-nav:hover{
+    display: block;
+}
+.item-list{
+    position: relative;
+    margin-top: 2%;
+    padding: 20px;
+
+}
+div{
+    color: black;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    background: url('../images/login-bg.jpg') no-repeat scroll center; background-size: 100% 100%;min-height:640px; 
+
+}
+.navbar-inverse{
+     background: url('../images/images.jpg') no-repeat scroll center; background-size: 100% 100%; 
+
+}
